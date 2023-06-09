@@ -1,0 +1,31 @@
+Agenda: 
+project discussion with web application.
+1. web application 
+2. flask
+3. html 
+4. https
+
+we will open to general discussion and doubt.
+
+step1:
+create folder structure for project.
+- data 
+- templates
+- main.py
+- requirements.txt
+
+## command to create virtual environment 
+conda create -p sentiment_env python=3.8 -y
+create -- it allow to create something
+-p -- present directory
+venv name 
+python version want use 
+-y .... put yes automatically install everyone things
+
+
+## command to activate virtual environment 
+conda activate sentiment_env/
+
+### install packages 
+pip install -r retquirenments.txt
+

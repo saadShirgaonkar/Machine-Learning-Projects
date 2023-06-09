@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sentiment Analysis Demo</title>
+  </head>
+  <body>
+    <h1 style="color:rgb(200, 83, 0); text-align: center;">Sentiment Analysis</h1>
+    <form action="{{ url_for('predict')}}"" method="post">
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <textarea id="text" name="text" rows="4" cols="50" placeholder="Enter your text here" style="padding: 10px; border: 1px solid #19c810; border-radius: 5px; font-size: 16px; opacity: 0.5;"></textarea>
+        <input type="submit" value="predict" style="color:#0015ff; margin-top: 50px;">
+      </div>
+    </form>
+  </body>
+</html>
